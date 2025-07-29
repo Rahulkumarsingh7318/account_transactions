@@ -17,8 +17,7 @@ class Account:
 
     def get_balance(self):
         return self.balance 
-    
-acc1 = Account(10000,12345)
+acc1 = Account(10000,12345) 
 acc1.debit (1000)
 acc1.credit (5000)
 acc1.credit (10000)
